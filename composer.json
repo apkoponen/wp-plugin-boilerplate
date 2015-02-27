@@ -1,0 +1,31 @@
+{
+  "name": "frozzare/wp-plugin-boilerplate",
+  "type": "wordpress-plugin",
+  "description": "Description of the plugin",
+  "homepage": "https://github.com/frozzare/wp-plugin-boilerplate",
+  "license": "MIT",
+  "keywords": ["wordpress","plugin"],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "authors": [
+    {
+      "name": "Fredrik Forsmo",
+      "email": "fredrik.forsmo@gmail.com",
+      "homepage": "https://github.com/frozzare"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/frozzare/wp-plugin-boilerplate/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "Boilerplate\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Boilerplate\\Tests\\": "tests/"
+    }
+  }
+}
