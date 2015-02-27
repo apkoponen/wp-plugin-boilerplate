@@ -1,3 +1,3 @@
 # WordPress Plugin Boilerplate
 
-WordPress Plugin Boilerplate following PSR-4
+[WIP] WordPress Plugin Boilerplate following PSR-4
