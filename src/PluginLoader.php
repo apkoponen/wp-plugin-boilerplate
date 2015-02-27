@@ -17,16 +17,16 @@ final class PluginLoader {
 	 * @since 1.0.0
 	 */
 
-  private static $instance;
+	private static $instance;
 
-  /**
-   * Plugin boilerplate textdomain.
-   *
-   * @var string
-   * @since 1.0.0
-   */
+	/**
+	 * Plugin boilerplate textdomain.
+	 *
+	 * @var string
+	 * @since 1.0.0
+	 */
 
-  const TEXT_DOMAIN = 'boilerplate';
+	const TEXT_DOMAIN = 'boilerplate';
 
 	/**
 	 * Papi loader instance.
@@ -37,15 +37,15 @@ final class PluginLoader {
 	 */
 
 	public static function instance() {
-    if ( ! isset( self::$instance ) ) {
-      self::$instance = new static;
-      self::$instance->setupActions();
-      self::$instance->setupFilters();
-      self::$instance->loadTranslatedText();
-    }
+		if ( ! isset( self::$instance ) ) {
+			self::$instance = new static;
+			self::$instance->setupActions();
+			self::$instance->setupFilters();
+			self::$instance->loadTranslatedText();
+		}
 
-    return self::$instance;
-  }
+		return self::$instance;
+	}
 
 	/**
 	 * Load translated strings for the current locale, if a translation exists.
@@ -53,9 +53,9 @@ final class PluginLoader {
 	 * @since 1.0.0
 	 */
 
-  private function loadTranslatedText() {
-    load_plugin_textdomain( self::TEXT_DOMAIN, false, dirname( dirname( __FILE__ ) ) . '/languages' );
-  }
+	private function loadTranslatedText() {
+		load_plugin_textdomain( self::TEXT_DOMAIN, false, dirname( dirname( __FILE__ ) ) . '/languages' );
+	}
 
 	/**
 	 * Setup WordPress actions.
@@ -64,8 +64,8 @@ final class PluginLoader {
 	 */
 
 	private function setupActions() {
-    add_action( 'init', array( __CLASS__, 'loadTranslatedText' ) );
-  }
+		add_action( 'init', array( __CLASS__, 'loadTranslatedText' ) );
+	}
 
 	/**
 	 * Setup WordPress filters.
