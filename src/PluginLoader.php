@@ -64,7 +64,7 @@ final class PluginLoader {
    */
 
   private function setupActions() {
-    add_action('init', array($this, 'loadTranslatedText'));
+    add_action('init', [$this, 'loadTranslatedText']);
   }
 
   /**
