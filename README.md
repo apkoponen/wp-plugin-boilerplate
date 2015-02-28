@@ -1,8 +1,6 @@
 # WordPress Plugin Boilerplate
 
-WordPress Plugin Boilerplate
-
-# Coding Style
+## Coding Style
 
 Follow [PSR-2](http://www.php-fig.org/psr/psr-2/) with the following changes:
 
