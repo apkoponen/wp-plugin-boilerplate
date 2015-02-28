@@ -19,7 +19,7 @@
     <exclude name="PSR2.ControlStructures.SwitchDeclaration.BreakIndent"/>
     <exclude name="PSR2.Methods.FunctionCallSignature.Indent"/>
 
-    <!-- Disable PSR-2 close brace after body -->
+    <!-- Allow new line before last `}` -->
     <exclude name="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody" />
   </rule>
 
