@@ -11,11 +11,11 @@
  */
 
 // Make sure the plugin does not expose any info if called directly
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 // Framework requires PHP 5.4 or newer
-if ( version_compare( PHP_VERSION, '5.4.0', '<' ) ) {
-	exit( 'The Plugin Boilerplate for WordPress requires PHP version 5.4 or higher.' );
+if (version_compare(PHP_VERSION, '5.4.0', '<')) {
+  exit('The Plugin Boilerplate for WordPress requires PHP version 5.4 or higher.');
 }
 
 // Load Composer autoloader.
@@ -28,8 +28,8 @@ require 'vendor/autoload.php';
  */
 
 function boilerplate() {
-	return \Boilerplate\PluginLoader::instance();
+  return \Boilerplate\PluginLoader::instance();
 }
 
 // Initialize on plugins loaded
-add_action( 'plugins_loaded', 'boilerplate', 0, 0 );
+add_action('plugins_loaded', 'boilerplate', 0, 0);
