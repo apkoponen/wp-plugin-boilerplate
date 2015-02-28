@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/frozzare/wp-plugin-boilerplate.svg?branch=master)](https://travis-ci.org/frozzare/wp-plugin-boilerplate)
 
+Plugin Boilerplate requires PHP 5.4.
+
 ## Coding Style
 
 Follow [PSR-2](http://www.php-fig.org/psr/psr-2/) with the following changes:
