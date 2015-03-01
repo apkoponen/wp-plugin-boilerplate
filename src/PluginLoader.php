@@ -29,7 +29,7 @@ final class PluginLoader {
   const TEXT_DOMAIN = 'boilerplate';
 
   /**
-   * Papi loader instance.
+   * Get Plugin boilerplate loader instance.
    *
    * @since 1.0.0
    *
