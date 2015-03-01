@@ -57,7 +57,6 @@ final class PluginLoader {
 
   {
     load_plugin_textdomain(self::TEXT_DOMAIN, false, dirname(dirname(__FILE__)) . '/languages');
-
   }
 
   /**
