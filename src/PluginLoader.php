@@ -54,8 +54,11 @@ final class PluginLoader {
    */
 
   public function loadTranslatedText()
+
   {
+
     load_plugin_textdomain(self::TEXT_DOMAIN, false, dirname(dirname(__FILE__)) . '/languages');
+
   }
 
   /**
