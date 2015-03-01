@@ -10,7 +10,8 @@ Follow [PSR-2](http://www.php-fig.org/psr/psr-2/) with the following changes:
 
 - Indent with 2 spaces.
 - Opening braces for functions and classes forced on the same line.
-- Allow new line before last `}`
+- Allow new line before last `}`.
+- Forced newline after opening brace.
 
 Additional rules:
 
