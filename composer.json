@@ -21,7 +21,10 @@
   "autoload": {
     "psr-4": {
       "Boilerplate\\": "src/"
-    }
+    },
+    "files": [
+      "src/api.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {

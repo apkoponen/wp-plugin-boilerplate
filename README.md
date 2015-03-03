@@ -16,5 +16,5 @@ Follow [PSR-4](http://www.php-fig.org/psr/psr-4/) for autoloading.
 You can check if your code passes the styleguide by installing [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and running the following in your project directory:
 
 ```
-phpcs --standard=psr2 --extensions=php -n -s .
+phpcs --standard=phpcs.xml --extensions=php -n -s .
 ```
