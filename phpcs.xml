@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Digster">
-  <description></description>
+<ruleset name="PluginBoilerplate">
+  <description>The description of Plugin Boilerplate</description>
 
   <!-- Exclude vendor directory -->
   <exclude-pattern>vendor</exclude-pattern>
