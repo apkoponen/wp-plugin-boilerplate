@@ -12,6 +12,7 @@ Follow [PSR-2](http://www.php-fig.org/psr/psr-2/) with the following changes:
 - Opening braces for functions and classes forced on the same line.
 - Allow new line before last `}`.
 - Forced newline after opening brace.
+- Functions that should be used in a WordPress theme should not be camelCase, instead use underscores.
 
 Additional rules:
 
