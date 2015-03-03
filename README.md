@@ -8,6 +8,7 @@ Plugin Boilerplate requires PHP 5.4.
 
 Follow [PSR-2](http://www.php-fig.org/psr/psr-2/) with the following additional rules:
 
+- Functions that should be used in a WordPress theme should not be camelCase, instead use underscores.
 - Use short array syntax.
 
 Follow [PSR-4](http://www.php-fig.org/psr/psr-4/) for autoloading.
