@@ -11,5 +11,5 @@ mkdir /tmp/wordpress/wp-content/uploads
 mkdir -p /tmp/wordpress/wp-content/plugins/boilerplate/tmp
 
 # Set start path
-echo cd \/tmp\/wordpress\/wp-content\/plugins\/papi/ > /home/vagrant/.bashrc
+echo cd \/tmp\/wordpress\/wp-content\/plugins\/boilerplate/ > /home/vagrant/.bashrc
 rm -rf /etc/motd
